@@ -1,0 +1,73 @@
+
+
+.sidebar{
+    min-height: calc(100vh - 3rem);
+    background-color: #19171d;
+    max-width: 17%;
+}
+
+.sidebar__title{
+    color: white;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0 !important;
+}
+
+.sidebar__title:hover,.browseSlack:hover,.sidebar__channels__header:hover{
+    background-color: rgb(37, 32, 43);
+}
+
+.browseSlack, .sidebar__channels__header{
+    
+   
+    color: gray;
+   
+}
+
+.sidebar__icon{
+    margin-right: 10px !important;
+    color: gray;
+    
+}
+
+/* 
+
+.browseSlack{
+    border-bottom: 1px solid  rgb(63, 63, 63);
+}
+
+.browseSlack,.sidebar__channels__header, .addChannel, .channels > div{
+    
+    font-size: 18px;
+    color: gray;
+    font-weight: 400 !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px !important;
+    
+}
+
+.channels > div{
+    padding: 0 15px !important;
+    height: 30px;
+}
+
+.channels > div:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.channels > div > p > span{
+    font-size: 22px ;
+    padding: 0 15px 0px 5px !important;
+}
+
+
+.sidebar__channels{
+    font-size: 18px;
+    color: gray;
+    font-weight: 400 !important;
+
+} */
